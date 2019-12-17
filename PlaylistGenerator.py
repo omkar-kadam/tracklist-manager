@@ -2,7 +2,7 @@ from apiclient.discovery import build
 import google_auth_httplib2
 from google_auth_oauthlib.flow import InstalledAppFlow
 import html
-import TracklistGenerator
+import TracklistParser
 import YouTubeSearchEngine
 import time
 from FetchMP3 import getmp3
@@ -118,7 +118,7 @@ def insertPlaylistItem(playlistId, actualVideoId):
 if __name__ == '__main__':  # Program initiation point
     flg = True
     while flg:
-        tracklistCleanedName, cleanedTracks = TracklistGenerator.generateTracklist()
+        tracklistCleanedName, cleanedTracks = TracklistParser.generateTracklist()
         service = int(input('Please select Service to save Tracks: 1.Youtube 2.Spotify ? [1 or 2]: '))
         if service == 1:
             youtube = OAuthVerification()

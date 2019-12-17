@@ -85,8 +85,8 @@ class Setup(object):
             print()
             print()
             print('Inserting Tracks')
-            print()
-            print()
+            print('.')
+            print('.')
             time.sleep(2)
             playlist_json = response.json()
             self.playlistid = playlist_json['id']

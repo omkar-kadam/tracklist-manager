@@ -9,3 +9,7 @@ __pycache__/FetchMP3.cpython-37.pyc
 __pycache__/SpotifyIntegration.cpython-37.pyc
 __pycache__/TracklistGenerator.cpython-37.pyc
 __pycache__/YouTubeSearchEngine.cpython-37.pyc
+.ipynb_checkpoints/playlistgenerator-checkpoint.ipynb
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+.ipynb_checkpoints/YTPlaylistGenerator-checkpoint.ipynb
+__pycache__/TracklistParser.cpython-37.pyc
