@@ -1,4 +1,4 @@
-# BeatNexus
+# BeatNexus Ξ
 
 ![PyPI - Status](https://img.shields.io/pypi/status/conda)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django?color=green&label=python&logo=python&logoColor=blue)
