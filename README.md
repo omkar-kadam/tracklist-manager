@@ -11,6 +11,11 @@ BeatNexus is a python based web application which lets you save tracklists from 
 * Now you can save your favourite Tracklists on Spotify.
 * Also, you are now able to save your MixesDB tracklists to YouTube and Spotify.
 
+## Links
+
+* All the Pacakages used in this project are included in Anaconda Distribution. You can download it <a href="https://www.anaconda.com/distribution/">here</a>.
+* List of Radio Shows, Festival Mixes and Guestmix can be found on <a href="https://www.mixesdb.com/db/index.php/Main_Page">MixesDB</a> & <a href="https://www.1001tracklists.com">1001Tracklists</a>
+
 ## Packages
 
 [![PyPI](https://img.shields.io/pypi/v/apiclient?label=apiclient&logo=google)](https://pypi.org/project/apiclient/)
@@ -18,11 +23,6 @@ BeatNexus is a python based web application which lets you save tracklists from 
 [![PyPI](https://img.shields.io/pypi/v/beautifulsoup4?label=BeautifulSoup&logoColor=blue)](https://pypi.org/project/beautifulsoup4/)
 [![PyPI](https://img.shields.io/pypi/v/selenium?label=selenium&logoColor=blue)](https://pypi.org/project/selenium/)
 [![PyPI](https://img.shields.io/pypi/v/tqdm?label=tqdm&logoColor=blue)](https://pypi.org/project/tqdm/)
-
-## Links
-
-* All the Pacakages used in this project are included in Anaconda Distribution. You can download it <a href="https://www.anaconda.com/distribution/">here</a>.
-* List of Radio Shows, Festival Mixes and Guestmix can be found on <a href="https://www.mixesdb.com/db/index.php/Main_Page">MixesDB</a> & <a href="https://www.1001tracklists.com">1001Tracklists</a>
 
 ## Usage
 
