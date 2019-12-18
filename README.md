@@ -43,7 +43,7 @@ Open PlaylistGenerator.ipynb in Jupyter and Run.
 
 Follow the instructions as per required inputs.
 
-### Improvements
+## Improvements
 
 1. Migrating to a Web Application using FLASK.
 2. Designing and building UI / UX upon ReactJS. 
