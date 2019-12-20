@@ -98,6 +98,7 @@ def insertTracks(youtube, playlistId, cleanedTracks):  # youtube object is requi
         elif actualVideoId == "Failed To Generate URL":
             print(actualVideoId)
         else:
+            print("Inserting : ", trackTitle)
             playListData[actualVideoId] = trackTitle
             insertPlaylistItem(playlistId, actualVideoId)
     return playListData
@@ -119,6 +120,7 @@ if __name__ == '__main__':  # Program initiation point
     flg = True
     while flg:
         tracklistCleanedName, cleanedTracks = TracklistParser.generateTracklist()
+        print()
         service = int(input('Please select Service to save Tracks: 1.Youtube 2.Spotify ? [1 or 2]: '))
         if service == 1:
             youtube = OAuthVerification()
@@ -137,7 +139,8 @@ if __name__ == '__main__':  # Program initiation point
                 print("Successfully created a Spotify Playlist")
             else:
                 print("An Error Occurred while creating a Spotify Playlist")
-        end_choice = input('Do You Want To Add More Tracks Mate !? [Yes/No]')
+        print()
+        end_choice = input('Do you want to add tracks again !? [Yes/No]')
         if end_choice.lower() == 'yes':
             flg = True
         else:

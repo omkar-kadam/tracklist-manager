@@ -1,3 +1,5 @@
+from typing import List
+
 import requests
 from urllib.parse import quote
 import re
@@ -123,10 +125,16 @@ class Setup(object):
         name = name.split(' - ')
         track_name = name[1]
         track_ascii = quote(name[1], safe='')
-        # artist_name = name[0] For later search refining process
+        artist_name = name[0]  # For later search refining process
+        if "&" in artist_name:
+            artist_name = artist_name.split(" & ")[0]
+        elif "ft." in artist_name:
+            artist_name = artist_name.split(" ft. ")[0]
+        artist_name = quote(artist_name, safe='')
+
         # BASE URL
         url = 'https://api.spotify.com/v1/search?'
-        q = 'q' + '=' + track_ascii + '&' + 'type=track'
+        q = 'q' + '=' + artist_name + "%20" + track_ascii + '&' + 'type=track'
         time.sleep(1)
         response_body = requests.get(url + q, headers={'Authorization': 'Bearer ' + self.token})
         if checkresponse(response_body):
@@ -183,5 +191,6 @@ def SpotifyConnector(tracklistname, tracks):
         return False
     return False
 
-#  tracks = ['Daft Punk - Crescendolls',"Eric Prydz - Slammin' (Axwell Remix)"]
-#  SpotifyConnector('009 Tracks',tracks)
+
+# tracks = ['Daft Punk - Crescendolls', "Sidney Samson & X-TOF & Bowman ft. Mr. Pig & Zafra Negra - Bomba Latina"]
+# SpotifyConnector("TEST TRACKLIST 1", tracks)

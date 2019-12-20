@@ -13,6 +13,8 @@ BeatNexus is a python based web application which lets you save tracklists from 
 
 ## Packages
 
+All the required packages are found on PyPI
+
 [![PyPI](https://img.shields.io/pypi/v/apiclient?label=apiclient&logo=google)](https://pypi.org/project/apiclient/)
 [![PyPI](https://img.shields.io/pypi/v/google_auth_httplib2?label=google_auth_httplib2&logo=google)](https://pypi.org/project/google-auth-httplib2/)
 [![PyPI](https://img.shields.io/pypi/v/beautifulsoup4?label=BeautifulSoup&logoColor=blue)](https://pypi.org/project/beautifulsoup4/)
@@ -21,21 +23,30 @@ BeatNexus is a python based web application which lets you save tracklists from 
 
 ## Links
 
-* All the Pacakages used in this project are included in Anaconda Distribution. You can download it <a href="https://www.anaconda.com/distribution/">here</a>.
+* All the Packages used in this project are included in Anaconda Distribution. You can download it <a href="https://www.anaconda.com/distribution/">here</a>.
 * List of Radio Shows, Festival Mixes and Guestmix can be found on <a href="https://www.mixesdb.com/db/index.php/Main_Page">MixesDB</a> & <a href="https://www.1001tracklists.com">1001Tracklists</a>
+
+## Installation
+Install above packages with pip. Example.
+```
+$ pip install apiclient
+```
 
 ## Usage
 
 ### Command Line Interface
 
-Install the dependencies and change the running directory to project directory.
+* Install the dependencies and change the running directory to project directory.
+    ```
+    $ cd tracklist-manager 
+    $ python PlaylistGenerator.py
+    ```
+* Enter your favourite 1001 or MixesDB Tracklist URL. Take this for <a href="https://www.1001tracklists.com/tracklist/g5tm74k/dada-life-podcast-december-2019-12-18.html">Example</a>
+    ```
+    Enter 1001Tracklist or MixesDB URL :
+    ```
 
-```
-$ cd tracklist-manager 
-$ python PlaylistGenerator.py
-```
 
-Once the above is executed, then follow the instructions as per required inputs.
 
 ### Jupyter Notebook
 
