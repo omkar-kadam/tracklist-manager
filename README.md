@@ -57,4 +57,5 @@ Follow the instructions as per required inputs.
 ## Improvements
 
 1. Migrating to a Web Application using FLASK.
-2. Designing and building UI / UX upon ReactJS. 
+2. Designing and building UI / UX upon ReactJS.
+3. Apply Learning on User entered data.
