@@ -1,6 +1,6 @@
 # BeatNΞxus
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django?color=blue&logo=python)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django?color=blue&logo=python)](https://www.python.org/downloads/)
 [![GitHub](https://img.shields.io/badge/Original%20Author-sicktrick--237-yellow)](https://github.com/sicktrick-237)
 
 BeatNexus is a python based web application which lets you save tracklists from 1001 Tracklists and MixesDB, directly to your YouTube or Spotify playlists.
@@ -15,7 +15,7 @@ BeatNexus is a python based web application which lets you save tracklists from 
 All the required packages are found on PyPI
 
 [![PyPI](https://img.shields.io/pypi/v/apiclient?label=apiclient&logo=google)](https://pypi.org/project/apiclient/)
-[![PyPI](https://img.shields.io/pypi/v/google_auth_httplib2?label=google_auth_httplib2&logo=google)](https://pypi.org/project/google-auth-httplib2/)
+[![PyPI](https://img.shields.io/pypi/v/google-auth-httplib2?color=9cf&label=google-auth-httplib2)](https://pypi.org/project/google-auth-httplib2/)
 [![PyPI](https://img.shields.io/pypi/v/Beautifulsoup?color=yellow&label=Beautifulsoup)](https://pypi.org/project/beautifulsoup4/)
 [![PyPI](https://img.shields.io/pypi/v/selenium?label=selenium&logoColor=blue)](https://pypi.org/project/selenium/)
 [![PyPI](https://img.shields.io/pypi/v/tqdm?label=tqdm&logoColor=blue)](https://pypi.org/project/tqdm/)
