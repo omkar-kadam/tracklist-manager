@@ -16,7 +16,7 @@ All the required packages are found on PyPI
 
 [![PyPI](https://img.shields.io/pypi/v/apiclient?label=apiclient&logo=google)](https://pypi.org/project/apiclient/)
 [![PyPI](https://img.shields.io/pypi/v/google_auth_httplib2?label=google_auth_httplib2&logo=google)](https://pypi.org/project/google-auth-httplib2/)
-[![PyPI](https://img.shields.io/pypi/v/beautifulsoup4?label=BeautifulSoup&logoColor=blue)](https://pypi.org/project/beautifulsoup4/)
+[![PyPI](https://img.shields.io/pypi/v/Beautifulsoup?color=yellow&label=Beautifulsoup)](https://pypi.org/project/beautifulsoup4/)
 [![PyPI](https://img.shields.io/pypi/v/selenium?label=selenium&logoColor=blue)](https://pypi.org/project/selenium/)
 [![PyPI](https://img.shields.io/pypi/v/tqdm?label=tqdm&logoColor=blue)](https://pypi.org/project/tqdm/)
 
