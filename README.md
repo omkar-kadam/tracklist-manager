@@ -1,7 +1,7 @@
 # BeatNΞxus
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django?color=blue&logo=python)](https://www.python.org/downloads/)
-[![GitHub](https://img.shields.io/badge/Original%20Author-sicktrick--237-yellow)](https://github.com/sicktrick-237)
+[![GitHub](https://img.shields.io/badge/Original%20Author-sicktrick--237-brightgreen)](https://github.com/sicktrick-237)
 
 BeatNexus is a python based web application which lets you save tracklists from 1001 Tracklists and MixesDB, directly to your YouTube or Spotify playlists.
 
