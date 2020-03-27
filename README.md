@@ -5,7 +5,7 @@
 
 BeatNexus is a python based web application which lets you save tracklists from 1001 Tracklists and MixesDB, directly to your YouTube or Spotify playlists.
 
-Note: For Access (client secret), please reach out to shawnthesheep512@gmail.com
+Note: For Access (client secret), please reach out to shawnthesheep512@gmail.com or create an issue request.
 
 ## New Features
 
