@@ -53,9 +53,9 @@ Generating client_secret.json
 
 ### Command Line Interface
 
-* Install the dependencies and change the running directory to project directory.
+* Install the dependencies from requirements.txt and change the running directory to project directory.
     ```
-    $ cd tracklist-manager 
+    $ cd src
     $ python PlaylistGenerator.py
     ```
 * Enter your favourite 1001 or MixesDB Tracklist URL. Take this for <a href="https://www.1001tracklists.com/tracklist/g5tm74k/dada-life-podcast-december-2019-12-18.html">Example</a>
