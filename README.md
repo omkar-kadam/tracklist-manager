@@ -48,7 +48,7 @@ $ pip install apiclient
     ```
 
 ### Demo
-![BeatNexus](demo/demo.gif)
+<center>![BeatNexus](demo/demo.gif)</center>
 
 
 
