@@ -32,23 +32,6 @@ Install above packages with pip. Example.
 ```
 $ pip install apiclient
 ```
-* <b>IMPORTANT</b>
-
-Generating client_secret.json
-
-```
-1. Go To https://console.developers.google.com/
-2. Create Project
-3. Give any decent project name
-4. Click on "Enable API and Services"
-5. Search for "YouTube Data API v3"
-6. Click on Enable
-7. Setup Consent Screen > External > Application Name > Save
-8. Click on Credentials > Create Credentials > OAuth Client ID > Download the JSON
-9. Copy over that JSON file into Project Directory
------------------------DONE !----------------------------------
-```
-
 
 ## Usage
 

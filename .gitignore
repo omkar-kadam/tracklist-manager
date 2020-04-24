@@ -13,3 +13,7 @@ __pycache__/YouTubeSearchEngine.cpython-37.pyc
 .ipynb_checkpoints/Untitled-checkpoint.ipynb
 .ipynb_checkpoints/YTPlaylistGenerator-checkpoint.ipynb
 __pycache__/TracklistParser.cpython-37.pyc
+src/utils/__pycache__/fetchmp3.cpython-37.pyc
+src/utils/__pycache__/spotify_integration.cpython-37.pyc
+src/utils/__pycache__/youtube_search_engine.cpython-37.pyc
+src/utils/__pycache__/tracklist_parser.cpython-37.pyc
