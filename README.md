@@ -47,6 +47,9 @@ $ pip install apiclient
     Enter 1001Tracklist or MixesDB URL :
     ```
 
+### Demo
+![BeatNexus](demo/demo.gif)
+
 
 
 ### Jupyter Notebook
