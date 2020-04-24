@@ -7,7 +7,7 @@ BeatNexus is a python based web application which lets you save tracklists from 
 
 Note: For Access (client secret), please reach out to shawnthesheep512@gmail.com or create an issue request.
 
-## New Features
+## New Additions
 
 * Now you can save your favourite Tracklists on Spotify.
 * Also, you are now able to save your MixesDB tracklists to YouTube and Spotify.
@@ -63,6 +63,8 @@ Generating client_secret.json
     Enter 1001Tracklist or MixesDB URL :
     ```
 
+### Demo
+![BeatNexus](demo/demo.gif)
 
 
 ### Jupyter Notebook
@@ -71,8 +73,3 @@ Open PlaylistGenerator.ipynb in Jupyter and Run.
 
 Follow the instructions as per required inputs.
 
-## Improvements
-
-1. Migrating to a Web Application using FLASK.
-2. Designing and building UI / UX upon ReactJS.
-3. Apply Learning on User entered data.
