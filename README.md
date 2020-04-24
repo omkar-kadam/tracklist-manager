@@ -28,9 +28,9 @@ All the required packages are found on PyPI
 * List of Radio Shows, Festival Mixes and Guestmix can be found on <a href="https://www.mixesdb.com/db/index.php/Main_Page">MixesDB</a> & <a href="https://www.1001tracklists.com">1001Tracklists</a>
 
 ## Installation
-Install above packages with pip. Example.
+Install above packages with requirements. Example.
 ```
-$ pip install apiclient
+$ pip install -r .\requirements.txt
 ```
 * <b>IMPORTANT</b>
 
