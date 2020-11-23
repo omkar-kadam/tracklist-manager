@@ -14,7 +14,7 @@ class Auth(object):
 
     def __init__(self):
         self.creds = {
-            'client_id': '26c805b413e140b7ad89fee98c1e5964',
+            'client_id': 'client_id after creating an app',
             'response_type': 'token',
             'redirect_uri': 'https://www.google.com/',
             'scope': 'playlist-read-private playlist-modify-private playlist-modify-public',
